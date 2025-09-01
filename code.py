@@ -160,11 +160,9 @@ label = tk.Label(
 )
 label.pack(side=tk.TOP, pady=10)
 
-# sub-frame to hold buttons (centered)
 button_frame = tk.Frame(frame, bg="#fef3c7")
 button_frame.pack(side=tk.TOP, pady=15)
 
-# button styles
 btn_style = {
     "font": ("Helvetica", 12, "bold"),
     "fg": "white",
